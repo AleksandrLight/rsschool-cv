@@ -1,4 +1,4 @@
-[rsschool-cv]
+[rsschool-cv](https://AleksandrLight.github.io/rsschool-cv/cv)
 ***
 # Aleksandr Kudinov
 ***
