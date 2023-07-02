@@ -29,7 +29,3 @@ Programming has always fascinated me. And the moment came when I seriously decid
 ## English
 * A1
 ***
-
-
-
-[def]: https://AleksandrLight.github.io/rsschool-cv/cv
