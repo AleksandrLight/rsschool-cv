@@ -1,21 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cv</title>
 </head>
 <body>
-  <header>
-    <img src="assets/img/my-photo.png" alt="my-photo" width="200px">
-    <section>
-      <h1>Aleksandr
-          </br>
-        Kudinov
-      </h1>
-    </section>
-      </header>
+  <header class="header">
+    <div class="header-container container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main-container container">
+      <section class="container-profile">
+        <img src="assets/img/my-photo.png" alt="my-photo" width="150px" class="my-photo">
+          <div class="section-profile">
+            <h1>Aleksandr Kudinov
+              <br>
+            </h1>
+              <h2>Beginner Front-end Developer</h2>                         
+          </div>
+      </section>
+      <div class="block-one">
+        <section class="container-informations" id="summary">
+          <h3 class="section-summary">Summary
+          </h3>
+            <p>
+              Hi, my name Aleksandr. 
+            </p>
+        </section>
+        <section class="container-contacts" id="contacts">
+          <h3 class="section-contacts">Contacts</h3>
+            <ul class="contacts-list">
+              <li>Telegram: <a href="https://t.me/alexandrlight" class="link">@aleksandrlight</a></li>
+              <li>E-mail: <a href="mailto:aleksandrlight@yandex.ru" class="link">aleksandrlight@yandex.ru</a></li>
+              <li>Discord: <a href="https://discord.gg/aleksandrlight" class="link">aleksandrlight#9977</a></li>
+              <li>GitHub: <a href="https://github.com/AleksandrLight" class="link">aleksandrlight</a></li>
+            </ul>
+        </section>
+      </div>
+      <div class="block-two">
+        <section class="container-skills" id="skills">
+          <h3>
+            Skills
+          </h3>
+        </section>
+        <section class="container-code" id="code">
+          <h3>
+            Code
+          </h3>
+        </section>
+      </div>
+      <div class="block-three">
+        <section class="container-courses" id="courses">
+          <h3>
+            Courses
+          </h3>
+        </section>
+        <section class="container-projects" id="projects">
+          <h3>
+            Projects
+          </h3>
+        </section>
+      </div>
+      <div class="block-four">
+        <section class="container-education" id="education">
+          <h3>
+            Education
+          </h3>
+        </section>
+        <section class="container-english" id="english">
+          <h3>
+            English
+          </h3>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container container"><span style=color:#F7BEB5;>&copy; 2023</span>
+      <a href="https://github.com/aleksandrlight" class="github-link">AleksandrKudinov</a>
+    </div>
+  </footer>
 </body>
 </html>

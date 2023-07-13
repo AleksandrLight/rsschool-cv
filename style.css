@@ -1,1 +1,180 @@
+@font-face {
+  font-family: crimson text;
+  src: url(assets/fonts/CrimsonText-Regular.ttf);
+  width: 400;
+}
+@font-face {
+  font-family: crimson text;
+  src: url(assets/fonts/CrimsonText-Bold.ttf);
+  width: 700;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: crimson text;
+  margin: 0;
+  margin-top: 0;
+  background-color: rgb(247, 190, 181);
+  color: rgb(33, 29, 30);
+}
+p {
+  color: rgb(110, 113, 101)
+}
+h1 {
+  padding-top: 15px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.header-container {
+    background:rgb(33, 29, 30);
+    border: 1px solid rgb(110, 113, 101);
+    box-shadow: 2px 2px 2px 2px rgb(110, 113, 101);
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list {
+  list-style: none;
+}
+.link {
+  color:rgb(110, 113, 101);
+  text-decoration: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  color:rgb(247, 190, 181);
+  text-decoration: none;
+}
+.nav-item {
+  font-size:20px;
+}
+.my-photo {
+  float:left;
+  padding-top:10px;
+  margin-left: 25%;
 
+}
+.container-profile{
+  border:2px solid rgb(110, 113, 101);
+  box-shadow: 5px 5px 5px 5px rgb(110, 113, 101);
+  height: 180px;
+}
+.section-profile {
+  text-align: center;
+  font-size: 22px;
+}
+.block-one {
+  display: flex;
+}
+.container-informations {
+  border: 2px solid rgb(110, 113, 101);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(110, 113, 101);
+  height: 220px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  width: 50%;
+}
+.container-contacts {
+  border: 2px solid rgb(110, 113, 101);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(110, 113, 101);
+  height: 220px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  width: 50%;
+}
+.section-contacts {
+  padding-left: 20px;
+}
+.contacts-list {
+  list-style: none;
+}
+.block-two {
+  display: flex;
+}
+.container-skills {
+  border: 2px solid rgb(110, 113, 101);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(110, 113, 101);
+  height: 220px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  width: 50%;
+}
+.container-code {
+  border: 2px solid rgb(110, 113, 101);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(110, 113, 101);
+  height: 220px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  width: 50%;
+}
+.block-three {
+  display: flex;
+}
+.container-courses {
+  border: 2px solid rgb(110, 113, 101);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(110, 113, 101);
+  height: 220px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  width: 50%;
+}
+.container-projects {
+  border: 2px solid rgb(110, 113, 101);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(110, 113, 101);
+  height: 220px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  width: 50%;
+}
+.block-four {
+  display: flex;
+}
+.container-education {
+  border: 2px solid rgb(110, 113, 101);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(110, 113, 101);
+  height: 220px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  width: 50%;
+}
+.container-english {
+  border: 2px solid rgb(110, 113, 101);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(110, 113, 101);
+  height: 220px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  width: 50%;
+}
+.footer-container {
+  height: 100px;
+  background:rgb(33, 29, 30);
+  border: 1px solid rgb(110, 113, 101);
+  padding-left: 20px;
+  padding-top: 50px;
+}
+.github-link {
+  color:rgb(247, 190, 181);
+  text-decoration: none;
+}
