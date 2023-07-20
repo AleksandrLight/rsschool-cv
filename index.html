@@ -1,10 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>cv</title>
 </head>
 <body>
+  <header class="header">
+    <div class="header-container container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main-container container">
+      <section class="container-profile">
+        <img src="assets/img/my-photo.png" alt="my-photo" class="my-photo">
+          <div class="section-profile">
+            <h1>Aleksandr Kudinov
+              <br>
+            </h1>
+              <h2>Beginner Front-end Developer</h2>                         
+          </div>
+      </section>
+      <div class="block-one">
+        <section class="container-informations" id="summary">
+          <h3 class="section-summary">Summary
+          </h3>
+            <p>
+              I am just starting to learn programming. 
+              And I really like it. I want programming to be my main job. 
+              The first goal is to become a front-end developer. 
+            </p>
+        </section>
+        <section class="container-contacts" id="contacts">
+          <h3 class="section-contacts">Contacts</h3>
+            <ul class="contacts-list">
+              <li>Telegram: <a href="https://t.me/alexandrlight" class="link">@aleksandrlight</a></li>
+              <li>E-mail: <a href="mailto:aleksandrlight@yandex.ru" class="link">aleksandrlight@yandex.ru</a></li>
+              <li>Discord: <a href="https://discord.gg/aleksandrlight" class="link">aleksandrlight#9977</a></li>
+              <li>GitHub: <a href="https://github.com/AleksandrLight" class="link">aleksandrlight</a></li>
+            </ul>
+        </section>
+      </div>
+      <div class="block-two">
+        <section class="container-skills" id="skills">
+          <h3>
+            Skills
+          </h3>
+          <p>In the process of studying</p>
+            <ul class="skills-list">
+              <li>HTML, CSS</li>
+              <li>GIT, GitHub</li>
+              <li>JS</li>
+            </ul>
+        </section>
+        <section class="container-code" id="code">
+          <h3>
+            Code
+          </h3>
+  <pre class="pre">
+  <code>function factorial(n) {
+    if(n &lt; 0) return null;
+    if (n &lt;= 1) return 1;
+    return n * factorial(n-1);
+  }</code>
+  </pre>
+        </section>
+      </div>
+      <div class="block-three">
+        <section class="container-courses" id="courses">
+          <h3>
+            Courses
+          </h3>
+          <ul class="courses-list">
+            <li>The Rolling Scopes School: Stage 0</li>
+          </ul>
+        </section>
+        <section class="container-projects" id="projects">
+          <h3>
+            Projects
+          </h3>
+          <ul class="projects-list">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </section>
+      </div>
+      <div class="block-four">
+        <section class="container-education" id="education">
+          <h3>
+            Education
+          </h3>
+          <p>Razumovsky Moscow State University of Technology and Management.</p>
+        </section>
+        <section class="container-english" id="english">
+          <h3>
+            English
+          </h3>
+          <p>A 1</p>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer container">
+    <div class="footer-container"><span style=color:#F7BEB5;>&copy; 2023</span>
+      <a href="https://github.com/aleksandrlight" class="github-link">AleksandrKudinov</a>
+    </div>
+    <div class="logotype-container">
+      <a href="https://rs.school/js/" class="logo-rss">
+        <img src="assets/img/RSS.png" alt="logo-rss" class="logo-rss">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
