@@ -8,6 +8,11 @@
   src: url(assets/fonts/CrimsonText-Bold.ttf);
   width: 700;
 }
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -118,6 +123,7 @@ h1 {
 }
 .skills-list {
   list-style-type: circle;
+  color: rgb(110, 113, 101)
 }
 .container-code {
   border: 2px solid rgb(110, 113, 101);
@@ -128,6 +134,9 @@ h1 {
   text-align: left;
   padding-left: 20px;
   width: 50%;
+}
+.pre {
+  color: rgb(110, 113, 101);
 }
 .block-three {
   display: flex;
@@ -142,6 +151,10 @@ h1 {
   padding-left: 20px;
   width: 50%;
 }
+.courses-list {
+  color: rgb(110, 113, 101);
+  list-style-type: circle;
+}
 .container-projects {
   border: 2px solid rgb(110, 113, 101);
   border-radius: 5px;
@@ -151,6 +164,10 @@ h1 {
   text-align: left;
   padding-left: 20px;
   width: 50%;
+}
+.projects-list {
+  color: rgb(110, 113, 101);
+  list-style-type: circle;
 }
 .block-four {
   display: flex;
@@ -177,16 +194,31 @@ h1 {
   padding-left: 20px;
   width: 50%;
 }
-.footer-container {
+.footer {
+  display: flex;
   height: 100px;
   background:rgb(33, 29, 30);
   border: 2px solid rgb(110, 113, 101);
   box-shadow: 0px 5px 5px 5px rgb(110, 113, 101);
   border-radius: 5px;
+}
+.footer-container {
+  width: 50%;
   padding-left: 20px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .github-link {
   color:rgb(247, 190, 181);
   text-decoration: none;
+}
+.logo-rss {
+  float:right;
+  border-radius: 5px;
+  width: 100px;
+  height: 60px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.logotype-container {
+  width: 50%;
 }
